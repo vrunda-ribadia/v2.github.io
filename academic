@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidhyaguru | Academics</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #efeaff 0%, #e2d8f5 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 30px 20px;
+        }
+
+        .hero {
+            background: white;
+            border-radius: 40px;
+            padding: 45px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+
+        .hero h1 {
+            color: #4A2E7A;
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            color: #6B5B95;
+            font-size: 1.2rem;
+        }
+
+        .section-card {
+            background: white;
+            border-radius: 30px;
+            padding: 35px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .section-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .section-title {
+            color: #4A2E7A;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            border-left: 5px solid #4A2E7A;
+            padding-left: 20px;
+        }
+
+        .section-subtitle {
+            color: #6B5B95;
+            font-size: 1.3rem;
+            margin: 20px 0 10px 0;
+        }
+
+        .content-text {
+            color: #4B5563;
+            line-height: 1.7;
+            font-size: 1rem;
+        }
+
+        .subject-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 15px;
+        }
+
+        .subject-badge {
+            background: #f0ebff;
+            color: #4A2E7A;
+            padding: 8px 18px;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 0.95rem;
+        }
+
+        .grid-2col {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .info-box {
+            flex: 1;
+            background: #f9f6ff;
+            padding: 20px;
+            border-radius: 20px;
+            min-width: 200px;
+        }
+
+        .back-home {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .btn-home {
+            background: #4A2E7A;
+            color: white;
+            text-decoration: none;
+            padding: 12px 35px;
+            border-radius: 40px;
+            font-weight: bold;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .btn-home:hover {
+            background: #3a2362;
+            transform: scale(1.02);
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #5a4a7a;
+        }
+
+        .emoji-big {
+            font-size: 2rem;
+            display: inline-block;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>📚 Academics</h1>
+            <p>Excellence in Science Education | Nurturing Young Minds for a Brighter Future</p>
+        </div>
+
+        <!-- Curriculum Section -->
+        <div class="section-card">
+            <div class="section-title">📖 Our Curriculum</div>
+            <p class="content-text">Vidhyaguru Science School follows a comprehensive curriculum designed to develop critical thinking and scientific temperament.</p>
+            
+            <div class="grid-2col">
+                <div class="info-box"><span class="emoji-big">🔬</span><div class="section-subtitle">Science Focus</div><p class="content-text">Strong emphasis on Physics, Chemistry, Biology with practical lab experience and experimental learning.</p></div>
+                <div class="info-box"><span class="emoji-big">➕</span><div class="section-subtitle">Mathematics</div><p class="content-text">Advanced mathematics with problem-solving approach, logical reasoning, and analytical skills development.</p></div>
+                <div class="info-box"><span class="emoji-big">👩‍💻</span><div class="section-subtitle">Technology Integration</div><p class="content-text">Computer Science, AI, Robotics and Coding from early grades to prepare for digital future.</p></div>
+                <div class="info-box"><span class="emoji-big">🌍</span><div class="section-subtitle">Holistic Development</div><p class="content-text">Languages, Social Studies, Arts, Sports and Life Skills for complete personality development.</p></div>
+            </div>
+        </div>
+
+        <!-- Subjects Offered -->
+        <div class="section-card">
+            <div class="section-title">📚 Subjects Offered</div>
+            
+            <div class="section-subtitle">🔬 Science Stream (Classes XI-XII)</div>
+            <div class="subject-list">
+                <span class="subject-badge">🧪 Physics</span>
+                <span class="subject-badge">⚗️ Chemistry</span>
+                <span class="subject-badge">🧬 Biology</span>
+                <span class="subject-badge">📐 Mathematics</span>
+                <span class="subject-badge">💻 Computer Science</span>
+            </div>
+
+            <div class="section-subtitle" style="margin-top: 30px;">🎨 Co-Curricular Subjects</div>
+            <div class="subject-list">
+                <span class="subject-badge">🎨 Art & Craft</span>
+                <span class="subject-badge">🎵 Music</span>
+                <span class="subject-badge">💃 Dance</span>
+                <span class="subject-badge">🏃 Physical Education</span>
+                <span class="subject-badge">🧘 Yoga</span>
+            </div>
+        </div>
+
+        <!-- Additional Highlights -->
+        <div class="section-card">
+            <div class="section-title">🏆 Why Vidhyaguru?</div>
+            <div class="grid-2col">
+                <div class="info-box"><span class="emoji-big">✅</span><div class="section-subtitle">Smart Classes</div><p class="content-text">Digital classrooms with modern teaching aids.</p></div>
+                <div class="info-box"><span class="emoji-big">✅</span><div class="section-subtitle">Well-Equipped Labs</div><p class="content-text">Physics, Chemistry & Biology labs with modern equipment.</p></div>
+                <div class="info-box"><span class="emoji-big">✅</span><div class="section-subtitle">Library Facility</div><p class="content-text">Rich collection of reference books & journals.</p></div>
+                <div class="info-box"><span class="emoji-big">✅</span><div class="section-subtitle">Career Guidance</div><p class="content-text">Regular counseling for competitive exams.</p></div>
+            </div>
+        </div>
+
+        <div class="back-home">
+            <a href="welcome.html" class="btn-home">🏠 BACK TO HOME</a>
+        </div>
+
+        <footer>
+            <p>🌟 Vidhyaguru Science School | Shaping Future Scientists Since 2010 🌟</p>
+        </footer>
+    </div>
+</body>
+</html>
