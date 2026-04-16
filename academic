@@ -195,7 +195,7 @@
         </div>
 
         <div class="back-home">
-            <a href="welcome.html" class="btn-home">🏠 BACK TO HOME</a>
+            <a href="index.html" class="btn-home">🏠 BACK TO HOME</a>
         </div>
 
         <footer>
